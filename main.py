@@ -23,7 +23,7 @@ app = FastAPI()
 
 # Constants
 LONG_TERM_MEMORY_WINDOW = 50
-# LONG_TERM_MEMORY_STEP = 10 # In case we want to implement a sliding window with overlapping context
+# LONG_TERM_MEMORY_STEP = 10 # In case we want to implement a sliding window 
 SIMILARITY_THRESHOLD = 0.7
 MAX_RELEVANT_SUMMARIES = 3
 SIMULATED_CONVERSATION_LENGTH = 100
